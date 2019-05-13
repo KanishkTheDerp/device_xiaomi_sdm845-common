@@ -39,6 +39,9 @@ on property:init.svc.vendor.cnss_diag=running
 on property:init.svc.vendor.ipacm-diag=running
     stop vendor.ipacm-diag
 
+on property:init.svc.tcpdump=running
+    stop tcpdump
+
 on property:persist.vendor.sys.ssr.enable_ramdumps=1
     start vendor.ss_ramdump_local
 
