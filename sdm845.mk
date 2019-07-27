@@ -133,8 +133,8 @@ PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
 # ThermalController app
-PRODUCT_PACKAGES += \
-    ThermalController
+#PRODUCT_PACKAGES += \
+    #ThermalController
 
 # VNDK-SP
 PRODUCT_PACKAGES += \
