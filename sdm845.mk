@@ -39,8 +39,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
+#PRODUCT_PACKAGES += \
+    #XiaomiParts
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
